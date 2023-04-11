@@ -1,0 +1,101 @@
+/* Header and navigation styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/* Card styles for each section */
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+/* Section-specific styles */
+#about-me {
+  background-color: #f2f2f2;
+}
+
+#projects {
+  background-color: #e6e6e6;
+}
+
+#experience {
+  background-color: #d9d9d9;
+}
+
+#skills {
+  background-color: #ccc;
+}
+
+/* List styles */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* Project list styles */
+ul li h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+ul li p {
+  color: #666;
+}
+
+/* Skills list styles */
+ul li ul {
+  margin-left: 20px;
+}
+
+ul li ul li {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+ul li ul li:before {
+  content: "•";
+  margin-right: 5px;
+}
+
+.icon {
+  float: right;
+  max-width: 3%;
+  padding-left: 40px;
+  margin-bottom: 15px;
+}
